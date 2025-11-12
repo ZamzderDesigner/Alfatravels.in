@@ -1,0 +1,46 @@
+{
+  "packages": [
+    {
+      "name": "Dubai Adventure",
+      "description": "Experience the thrill of Dubai with our exclusive adventure package, including desert safaris, city tours, and luxury accommodations.",
+      "price": 1200,
+      "duration": "5 days",
+      "image": "assets/images/packages/dubai.jpg"
+    },
+    {
+      "name": "Kashmir Getaway",
+      "description": "Escape to the serene landscapes of Kashmir with our all-inclusive package featuring houseboat stays and guided tours.",
+      "price": 800,
+      "duration": "6 days",
+      "image": "assets/images/packages/kashmir.jpg"
+    },
+    {
+      "name": "Bali Bliss",
+      "description": "Relax and rejuvenate in Bali with our wellness package, including spa treatments, beach access, and cultural experiences.",
+      "price": 1500,
+      "duration": "7 days",
+      "image": "assets/images/packages/bali.jpg"
+    },
+    {
+      "name": "Munnar Retreat",
+      "description": "Discover the lush greenery of Munnar with our eco-friendly package, featuring plantation visits and trekking adventures.",
+      "price": 600,
+      "duration": "4 days",
+      "image": "assets/images/packages/munnar.jpg"
+    },
+    {
+      "name": "Wayanad Wonders",
+      "description": "Explore the natural beauty of Wayanad with our adventure package, including wildlife safaris and trekking.",
+      "price": 700,
+      "duration": "5 days",
+      "image": "assets/images/packages/wayanad.jpg"
+    },
+    {
+      "name": "Alappuzha Backwaters",
+      "description": "Experience the tranquility of Alappuzha with our backwater package, including houseboat stays and local cuisine.",
+      "price": 650,
+      "duration": "3 days",
+      "image": "assets/images/packages/alappuzha.jpg"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+// This is the main SCSS file for styling the landing page.
+
+// Import Bootstrap for base styles
+@import "../assets/vendor/bootstrap/bootstrap";
+
+// Import custom variables and mixins
+@import "variables";
+@import "mixins";
+
+// Global Styles
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+// Header Styles
+header {
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+// Hero Section Styles
+.hero {
+    background: url('../assets/images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+
+    h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        background: #ff5733;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        transition: background 0.3s;
+
+        &:hover {
+            background: #c70000;
+        }
+    }
+}
+
+// Packages Section Styles
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    .package {
+        flex: 1 1 calc(33.333% - 20px);
+        margin: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 10px;
+        }
+
+        p {
+            margin: 10px;
+        }
+    }
+}
+
+// Footer Styles
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+
+    .footer-info {
+        text-align: center;
+
+        a {
+            color: #ff5733;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+// Media Queries
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .packages .package {
+        flex: 1 1 100%;
+    }
+}

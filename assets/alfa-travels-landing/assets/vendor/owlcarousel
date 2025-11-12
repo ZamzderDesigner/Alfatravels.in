@@ -1,0 +1,16 @@
+The contents of the file /alfa-travels-landing/alfa-travels-landing/assets/vendor/owlcarousel should include the necessary files for the Owl Carousel library. Typically, this would include the CSS and JavaScript files required to use Owl Carousel. However, since you have not specified any particular files or contents, I will provide a basic structure that you can expand upon.
+
+Here are the contents for the directory:
+
+/alfa-travels-landing/alfa-travels-landing/assets/vendor/owlcarousel
+- owl.carousel.css
+- owl.theme.default.css
+- owl.carousel.min.js
+
+You can create these files with the following basic contents:
+
+1. **owl.carousel.css** - This file should contain the default styles for the Owl Carousel.
+2. **owl.theme.default.css** - This file should contain the default theme styles for the Owl Carousel.
+3. **owl.carousel.min.js** - This file should contain the minified JavaScript code for the Owl Carousel functionality.
+
+If you need specific contents for these files, please let me know!

@@ -1,0 +1,10 @@
+The directory `/alfa-travels-landing/alfa-travels-landing/assets/vendor/bootstrap` is typically used to store the Bootstrap framework files. Since you have not specified any particular files to include, I will create a basic structure that includes the necessary Bootstrap files.
+
+Here are the contents for the `/alfa-travels-landing/alfa-travels-landing/assets/vendor/bootstrap` directory:
+
+- bootstrap.min.css
+- bootstrap.bundle.min.js
+
+You can download the latest Bootstrap files from the official Bootstrap website or use a package manager like npm to install them. 
+
+If you need specific files or further customization, please let me know!
