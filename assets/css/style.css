@@ -113,7 +113,7 @@ fieldset {
 }
 
 .section-title h2 {
-    font-weight: 700;
+    font-weight: 750;
     font-size: 40px;
     margin: 0;
     text-transform: capitalize;
@@ -1455,7 +1455,7 @@ a.slide-btn:hover {
     margin-bottom: 60px;
 }
 .section-header h2{
-    font-weight: 700;
+    font-weight: 800;
 }
 
 
